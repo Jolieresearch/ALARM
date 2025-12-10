@@ -2,8 +2,8 @@
 # make pesudo label
 python src/main.py --config-name label_qwen_FHM
 # conduct retreival
-python src/model/Insight/make_embeddings.py
-python src/model/Insight/conduct_retrieval.py
+python src/model/Experience/make_embeddings.py
+python src/model/Experience/conduct_retrieval.py
 # gather experience
 python src/main.py --config-name insight_qwen_FHM
 # refine reference
